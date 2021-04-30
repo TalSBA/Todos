@@ -4,7 +4,7 @@ import "../Styles/Filters.css";
 
 function Filters({variant, onFilterChange}) {
   return (
-    <div>
+    <div className="c-filters">
       <Badge
         pill
         variant={variant === "all" ? "dark" : ""}
