@@ -33,24 +33,20 @@ function Todos(props) {
   }
   return (
     <Container fluid className="p-todos">
-        <h1>Todos</h1>
-        <TodoInput
-          placeholder="Add Todo List"
-          value={inputText}
-          setValue={(value) => setInputText(value)}
-          onEnter={addListWithEnterPress}
-          onButtonClick={addList}
-        />
-      <Row>
+      <h1>Todos</h1>
+      <TodoInput
+        placeholder="Add Todo List"
+        value={inputText}
+        setValue={(value) => setInputText(value)}
+        onEnter={addListWithEnterPress}
+        onButtonClick={addList}
+      />
+      <CardColumns>
         {lists &&
           lists.map((todoList) => {
-            return (
-              <Col lg={4} md={2}>
-                <TodoCard todoList={todoList} onDeleteList={deleteList} />
-              </Col>
-            );
+            return <TodoCard todoList={todoList} onDeleteList={deleteList} />;
           })}
-      </Row>
+      </CardColumns>
     </Container>
   );
 }
