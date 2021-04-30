@@ -2,13 +2,13 @@
   font-family: Abel;
   margin: 0 auto;
   margin: 50px;
-  background-color: #dde8ec;
 }
-.p-todos .container{
-    width: 100% !important;
+.p-todos .container {
+  width: 100% !important;
 }
 .p-todos > h1 {
   text-align: center;
+  margin: 0 auto;
   font-size: 50px;
 }
 @font-face {
