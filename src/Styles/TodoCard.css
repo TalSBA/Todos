@@ -1,5 +1,7 @@
 .c-todo-card {
   width: 400px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .c-todo-card .card-header {
@@ -7,8 +9,24 @@
   color: white;
 }
 
+.c-todo-card .card-header > .title-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.c-todo-card .card-header > .title-icon > .title {
+  font-size: 18px;
+}
+.c-todo-card .card-header > .title-icon > .list-icon {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
 .c-todo-card .todo-row {
   display: flex;
+}
+.c-todo-card .card-header > .trash-list {
+  font-size: 20px;
 }
 .trash-icon {
   display: none;
@@ -17,9 +35,9 @@
   display: block;
   cursor: pointer;
 }
-.c-todo-card .card-header{
-    display: flex;
-    justify-content: space-between;
+.c-todo-card .card-header {
+  display: flex;
+  justify-content: space-between;
 }
 .c-todo-card .btn {
   border: none;

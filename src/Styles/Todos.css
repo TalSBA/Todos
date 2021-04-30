@@ -2,8 +2,9 @@
   font-family: Abel;
   margin: 50px;
 }
-.p-todos > h1{
-    text-align: center;
+.p-todos > h1 {
+  text-align: center;
+  font-size: 50px;
 }
 @font-face {
   font-family: Abel;
@@ -11,7 +12,8 @@
 }
 
 .p-todos > .c-todo-input {
-    width: 500px;
-    margin-bottom: 50px;
-    margin-top: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }

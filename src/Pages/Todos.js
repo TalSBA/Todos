@@ -41,12 +41,16 @@ function Todos(props) {
         onEnter={addListWithEnterPress}
         onButtonClick={addList}
       />
-      <CardColumns>
+      <Row>
         {lists &&
           lists.map((todoList) => {
-            return <TodoCard todoList={todoList} onDeleteList={deleteList} />;
+            return (
+              <Col lg={4}>
+                <TodoCard todoList={todoList} onDeleteList={deleteList} />
+              </Col>
+            );
           })}
-      </CardColumns>
+      </Row>
     </div>
   );
 }

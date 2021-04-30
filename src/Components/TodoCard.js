@@ -90,8 +90,10 @@ function TodoCard({ todoList, onDeleteList }) {
     <div className="c-todo-card">
       <Card>
         <Card.Header>
-          <IoDocumentTextOutline />
-          {todoList.title}
+          <span className="title-icon">
+            <IoDocumentTextOutline className="list-icon" />
+            <span className="title">{todoList.title}</span>
+          </span>
           <span className="trash-list">
             <VscTrash onClick={() => onDeleteList(todoList.id)} />
           </span>
