@@ -1,0 +1,17 @@
+.p-todos {
+  font-family: Abel;
+  margin: 50px;
+}
+.p-todos > h1{
+    text-align: center;
+}
+@font-face {
+  font-family: Abel;
+  src: url("./Abel/Abel-Regular.ttf");
+}
+
+.p-todos > .c-todo-input {
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}

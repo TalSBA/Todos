@@ -1,0 +1,17 @@
+.c-todo-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.c-todo-input .input-text {
+  flex: 1 1 auto;
+  width: 1%;
+  margin: 0 !important;
+}
+
+.c-todo-input .btn {
+  border: none;
+  background-color: #61ba8a;
+  margin: 0;
+}

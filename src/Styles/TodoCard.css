@@ -1,0 +1,45 @@
+.c-todo-card {
+  width: 400px;
+}
+
+.c-todo-card .card-header {
+  background-color: #47a9d6;
+  color: white;
+}
+
+.c-todo-card .todo-row {
+  display: flex;
+}
+.trash-icon {
+  display: none;
+}
+.todo-row:hover .trash-icon {
+  display: block;
+  cursor: pointer;
+}
+.c-todo-card .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.c-todo-card .btn {
+  border: none;
+  background-color: #61ba8a;
+  margin: 0;
+}
+
+.c-todo-card .input-container .input-text {
+  flex: 1 1 auto;
+  width: 1%;
+  margin: 0 !important;
+}
+
+.c-todo-card .input-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.c-todo-card .filters-countiner {
+  display: flex;
+  justify-content: space-between;
+}
