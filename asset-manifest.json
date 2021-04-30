@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Todos/static/css/main.043247f8.chunk.css",
-    "main.js": "/Todos/static/js/main.081098f1.chunk.js",
-    "main.js.map": "/Todos/static/js/main.081098f1.chunk.js.map",
+    "main.css": "/Todos/static/css/main.12355745.chunk.css",
+    "main.js": "/Todos/static/js/main.76c7ae92.chunk.js",
+    "main.js.map": "/Todos/static/js/main.76c7ae92.chunk.js.map",
     "runtime-main.js": "/Todos/static/js/runtime-main.3edd20ee.js",
     "runtime-main.js.map": "/Todos/static/js/runtime-main.3edd20ee.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Todos/static/css/2.4c97ca4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.629d0977.chunk.js.map": "/Todos/static/js/2.629d0977.chunk.js.map",
     "index.html": "/Todos/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Todos/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.043247f8.chunk.css.map": "/Todos/static/css/main.043247f8.chunk.css.map",
+    "static/css/main.12355745.chunk.css.map": "/Todos/static/css/main.12355745.chunk.css.map",
     "static/js/2.629d0977.chunk.js.LICENSE.txt": "/Todos/static/js/2.629d0977.chunk.js.LICENSE.txt",
     "static/media/Todos.css": "/Todos/static/media/Abel-Regular.3843f456.ttf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.3edd20ee.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.629d0977.chunk.js",
-    "static/css/main.043247f8.chunk.css",
-    "static/js/main.081098f1.chunk.js"
+    "static/css/main.12355745.chunk.css",
+    "static/js/main.76c7ae92.chunk.js"
   ]
 }
