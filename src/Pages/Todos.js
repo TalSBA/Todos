@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CardColumns, Col, Row } from "react-bootstrap";
+import { CardColumns, Col, Container, Row } from "react-bootstrap";
 
 import TodoCard from "../Components/TodoCard";
 import TodoInput from "../Components/TodoInput";
@@ -32,26 +32,26 @@ function Todos(props) {
     setLists(newListsArr);
   }
   return (
-    <div className="p-todos">
-      <h1>Todos</h1>
-      <TodoInput
-        placeholder="Add Todo List"
-        value={inputText}
-        setValue={(value) => setInputText(value)}
-        onEnter={addListWithEnterPress}
-        onButtonClick={addList}
-      />
+    <Container fluid className="p-todos">
+        <h1>Todos</h1>
+        <TodoInput
+          placeholder="Add Todo List"
+          value={inputText}
+          setValue={(value) => setInputText(value)}
+          onEnter={addListWithEnterPress}
+          onButtonClick={addList}
+        />
       <Row>
         {lists &&
           lists.map((todoList) => {
             return (
-              <Col lg={4}>
+              <Col lg={4} md={2}>
                 <TodoCard todoList={todoList} onDeleteList={deleteList} />
               </Col>
             );
           })}
       </Row>
-    </div>
+    </Container>
   );
 }
 
