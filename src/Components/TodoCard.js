@@ -107,7 +107,9 @@ function TodoCard({ todoList, onDeleteList }) {
                     <Form.Check
                       key={todo.id}
                       type="checkbox"
-                      className="mb-2 mr-sm-2"
+                      className={`mb-2 mr-sm-2 ${
+                        todo.status === "completed" ? "completed" : ""
+                      }`}
                       label={todo.value}
                       checked={todo.status === "completed" ? true : false}
                       onChange={(e) => updateTodoStatus(e, todo.id)}

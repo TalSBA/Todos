@@ -23,6 +23,11 @@
   font-size: 20px;
 }
 
+.c-todo-card .completed > .form-check-label{
+  color: gray;
+  text-decoration: line-through;
+}
+
 .c-todo-card .todo-row {
   display: flex;
 }
