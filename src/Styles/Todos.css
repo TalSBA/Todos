@@ -1,24 +1,25 @@
-.p-todos {
-  font-family: Abel;
-  margin: 0 auto;
-  margin: 50px;
-}
-.p-todos .container {
-  width: 100% !important;
-}
-.p-todos > h1 {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 50px;
-}
 @font-face {
   font-family: Abel;
   src: url("./Abel/Abel-Regular.ttf");
 }
 
-.p-todos > .c-todo-input {
-  width: 500px;
-  margin: 0 auto;
+.p-todos {
+  font-family: Abel;
+  width: 100%;
+}
+
+.p-todos .row {
+  justify-content: center;
+}
+
+.p-todos > .row > .c-todo-input {
+  width: 300px;
   margin-bottom: 50px;
   margin-top: 20px;
+}
+.p-todos > .row > .card-columns {
+  width: 90%;
+}
+.p-todos > .row > .card-columns > .c-todo-card {
+  width: 100%;
 }
